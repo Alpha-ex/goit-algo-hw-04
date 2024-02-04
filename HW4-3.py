@@ -1,5 +1,3 @@
-# Виконано за допомогою ChatGPT
-
 
 import os
 import sys
