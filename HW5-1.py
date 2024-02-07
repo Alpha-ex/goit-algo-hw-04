@@ -1,4 +1,3 @@
-
 n=10
 
 def caching_fibonacci():
@@ -16,9 +15,6 @@ def caching_fibonacci():
             cache[n] = result
             return result
     return fibonacci
+cached_fibonacci = caching_fibonacci()
+result = cached_fibonacci(n)
 print(f"The {n}-th Fibonacci number is: {result}")
-# # Приклад використання
-# n = 10
-# cached_fibonacci = caching_fibonacci()
-# result = cached_fibonacci(n)
-# print(f"The {n}-th Fibonacci number is: {result}")
